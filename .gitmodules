@@ -1,3 +1,6 @@
 [submodule "calculations/WanPy"]
 	path = calculations/WanPy
 	url = https://github.com/treycole/WanPy
+[submodule "WanPy"]
+	path = WanPy
+	url = https://github.com/treycole/WanPy
