@@ -1,0 +1,3 @@
+[submodule "calculations/WanPy"]
+	path = calculations/WanPy
+	url = https://github.com/treycole/WanPy
