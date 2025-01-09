@@ -35,18 +35,30 @@ WFs_n_tfs = {}
 
 print(name)
 
-for idx, n_tf in enumerate(n_tfs):
-    print(Wan_frac[idx])
-
+def compute_WFs(n_tf):
     tf_list = np.random.choice(low_E_sites, n_tf, replace=False) # ["random", n_tf]
     WFs = Wannier(model, [20, 20])
     WFs.single_shot(tf_list)
 
     WFs.ss_maxloc(
         verbose=True, iter_num_omega_i=20000, iter_num_omega_til=50000, 
-        tol_omega_i=1e-5, tol_omega_til=1e-5, grad_min=1e-3, eps=8e-4
+        tol_omega_i=1e-3, tol_omega_til=1e-3, grad_min=1e-1, eps=5e-4
         )
     
     WFs_n_tfs[n_tf] = WFs
 
     np.save(f"{sv_dir}/{name}_WFs.npy", WFs_n_tfs)
+
+for idx, n_tf in enumerate(n_tfs):
+    # print(Wan_frac[idx])
+
+    compute_WFs(n_tf)
+
+# import concurrent.futures
+
+# def run():
+#     with concurrent.futures.ProcessPoolExecutor() as executor:
+#         executor.map(compute_WFs, n_tfs)
+
+# if __name__ == '__main__':
+#     run()
