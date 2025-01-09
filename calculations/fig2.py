@@ -34,8 +34,8 @@ print(f"Chern # occupied: {chern: .1f}")
 print(model_str)
 
 random = False
-low_E = True
-omit = False
+low_E = False
+omit = True
 
 if random:
     omit_num = 0
