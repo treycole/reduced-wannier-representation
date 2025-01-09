@@ -31,7 +31,6 @@ if not os.path.exists(sv_dir):
 
 n_tfs = np.array([i for i in range(n_occ-1, 0, -1)])
 Wan_frac = n_tfs/n_occ
-WFs_n_tfs = {}
 
 print(name)
 
@@ -44,15 +43,22 @@ def compute_WFs(n_tf):
         verbose=True, iter_num_omega_i=20000, iter_num_omega_til=50000, 
         tol_omega_i=1e-3, tol_omega_til=1e-3, grad_min=1e-1, eps=5e-4
         )
-    
-    WFs_n_tfs[n_tf] = WFs
+    return WFs
 
-    np.save(f"{sv_dir}/{name}_WFs.npy", WFs_n_tfs)
-
+spread_dict = {}
 for idx, n_tf in enumerate(n_tfs):
-    # print(Wan_frac[idx])
+    print(Wan_frac[idx])
 
-    compute_WFs(n_tf)
+    WFs = compute_WFs(n_tf)
+
+    spread_dict[n_tf] = {
+            'spread': WFs.spread, 'omega_til': WFs.omega_til, 'omega_i': WFs.omega_i
+        }
+    np.save(f"{sv_dir}/{name}_spread_dict.npy", spread_dict)
+
+    if n_tf == 24:
+        np.save(f"{sv_dir}/{name}_WF_24o25.npy", WFs)
+
 
 # import concurrent.futures
 
