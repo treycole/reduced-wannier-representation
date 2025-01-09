@@ -1,12 +1,11 @@
 # Reduced Wannier Representation for Topological Bands [(arXiv:2412.17084)](https://arxiv.org/abs/2412.17084)
 Code for the paper "Reduced Wannier Representation for Topological Bands" by Trey Cole and David Vanderbilt. 
 
-Results are generated using the following packages
+The `LaTeX` source code and a pdf of the arXiv manuscript can be found in the [paper](/paper) folder. Results are generated using the notebooks and scripts found in the [calculations](/calculations) folder. The .py scripts are used for enhanced performance on more lengthy calculations, and the resulting figures are generated with the notebooks of the same name. The following packages are dependencies for running the code:
 - `pythtb`
 - `wanpy`
 
-The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`, but has not yet been included in a release. The repository for `wanpy` is linked in this directory or can be found [here](https://github.com/treycole/WanPy).
-
+The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`, but has not yet been included in a release. The repository for `wanpy` is linked in this directory or can be found [here](https://github.com/treycole/WanPy). 
 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
