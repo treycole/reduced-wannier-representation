@@ -5,7 +5,7 @@ The `LaTeX` source code and a pdf of the arXiv manuscript can be found in the [p
 - `pythtb`
 - `wanpy`
 
-The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`, but has not yet been included in a release. The repository for `wanpy` is linked in this directory or can be found [here](https://github.com/treycole/WanPy). 
+The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`, but has not yet been included in a release. The version for `wanpy` corresponding to this paper is linked as a submodule in this repository's root directory, or the most recent version can be found at the `wanpy` repository's main page [here](https://github.com/treycole/WanPy). 
 
 The dataset for the figures used in the paper is hosted on Zenodo with DOI [10.5281/zenodo.14544685](https://doi.org/10.5281/zenodo.14620024).
 
