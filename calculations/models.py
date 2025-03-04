@@ -27,17 +27,15 @@ def kane_mele(onsite, t, soc, rashba):
   "Return a Kane-Mele model in the normal or topological phase."
 
   # define lattice vectors
-  lat = [[1.0,0.0],[0.5,sqrt(3.0)/2.0]]
+  lat = [[1, 0], [0.5, sqrt(3)/2]]
   # define coordinates of orbitals
-  orb = [[1./3.,1./3.],[2./3.,2./3.]]
-
+  orb = [[1/3, 1/3], [2/3, 2/3]]
+ 
   # make two dimensional tight-binding Kane-Mele model
   ret_model = Model(2, 2, lat, orb, nspin=2)
 
   # set on-site energies
-  ret_model.set_onsite([onsite, -onsite])
-
-
+  ret_model.set_onsite([-onsite, onsite])
 
   # useful definitions
   sigma_x = np.array([0.,1.,0.,0])

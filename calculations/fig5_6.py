@@ -56,7 +56,7 @@ for idx, n_tf in enumerate(n_tfs):
         }
     np.save(f"{sv_dir}/{name}_spread_dict.npy", spread_dict)
 
-    if n_tf == 24:
+    if n_tf == n_tfs[0]:
         np.save(f"{sv_dir}/{name}_WF_24o25.npy", WFs)
 
 
