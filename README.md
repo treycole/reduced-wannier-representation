@@ -26,9 +26,9 @@ If you use this code in your research, please cite our paper
 arXiv:2412.17084, (2024)  
 [DOI: 10.48550/arXiv.2412.17084](https://doi.org/10.48550/arXiv.2412.17084)
 
-You can also [download the citation file here](./CITATION.cff) or get the `bibtex` from 'cite this repository' under 'About'.
+You can also [download the citation file here](./CITATION.cff) or get the `bibtex` from 'Cite this repository' under 'About'.
 
-The `bibtex` for citing our paper is
+The `bibtex` for citing our paper can also be copied here
 ```
 @misc{cole2025reducedwannierrepresentationtopological,
       title={Reduced Wannier Representation for Topological Bands}, 
