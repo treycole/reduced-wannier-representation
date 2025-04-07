@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper."
+authors:
+  - family-names: Cole
+    given-names: Trey
+  - family-names: Vanderbilt
+    given-names: David
+title: "Reduced Wannier Representation for Topological Bands"
+doi: "10.48550/arXiv.2412.17084"
+date-released: 2024-05-03
+version: v2.0
+url: https://github.com/treycole/reduced-wannier-representation
