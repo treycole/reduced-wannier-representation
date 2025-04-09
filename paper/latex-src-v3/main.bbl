@@ -139,9 +139,9 @@
 \bibitem [{\citenamefont {Coh}\ and\ \citenamefont {Vanderbilt}(2022)}]{pythtb}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Coh}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Vanderbilt}},\ }\href {https://doi.org/10.5281/ZENODO.12721315} {\bibinfo {title} {Python tight binding ({P}yth{TB})}} (\bibinfo {year} {2022})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Cole}\ and\ \citenamefont {Vanderbilt}(2025)}]{trey_cole_2025_14963659}%
+\bibitem [{\citenamefont {Cole}\ and\ \citenamefont {Vanderbilt}(2025)}]{cole_zenodo}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Cole}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Vanderbilt}},\ }\href {https://doi.org/10.5281/zenodo.14963659} {\bibinfo {title} {treycole/reduced-wannier-representation}} (\bibinfo {year} {2025})\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Cole}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Vanderbilt}},\ }\href {https://doi.org/10.5281/zenodo.15186174} {\bibinfo {title} {Reduced wannier representation for topological bands}} (\bibinfo {year} {2025})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Marzari}\ and\ \citenamefont {Vanderbilt}(1997)}]{marzari1997}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Marzari}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Vanderbilt}},\ }\bibfield  {title} {\bibinfo {title} {Maximally localized generalized wannier functions for composite energy bands},\ }\href {https://doi.org/10.1103/PhysRevB.56.12847} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo {pages} {12847} (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
