@@ -3,7 +3,7 @@
 Code for the paper "Reduced Wannier Representation for Topological Bands" by Trey Cole and David Vanderbilt. 
 
 ## 📜 Paper
-This paper has been published in Physical Review B and is available on the [APS website](https://doi.org/10.1103/PhysRevB.111.205139).
+This paper has been published in Physical Review B and is available on the APS website [![Journal](https://img.shields.io/badge/PhysRevB-10.1103/PhysRevB.111.205139-blue)](https://doi.org/10.1103/PhysRevB.111.205139).
 
 The arXiv preprint is available at [arXiv:2412.17084](https://arxiv.org/abs/2412.17084).
 
