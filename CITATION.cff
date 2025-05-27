@@ -5,8 +5,7 @@ authors:
     given-names: Trey
   - family-names: Vanderbilt
     given-names: David
-title: "Reduced Wannier Representation for Topological Bands"
-doi: "10.48550/arXiv.2412.17084"
-date-released: 2024-05-03
-version: v2.0
+title: "Reduced Wannier representation for topological bands"
+doi: "10.1103/PhysRevB.111.205139"
+date-released: 2025-05-27
 url: https://github.com/treycole/reduced-wannier-representation
