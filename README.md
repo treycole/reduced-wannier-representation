@@ -3,7 +3,8 @@
 Code for the paper "Reduced Wannier Representation for Topological Bands" by Trey Cole and David Vanderbilt. 
 
 ## 📜 Paper
-The preprint is available on [arXiv](https://arxiv.org/abs/2412.17084).
+This paper has been published paper is avail
+The preprint is available on [arXiv:2412.17084](https://arxiv.org/abs/2412.17084).
 
 The `LaTeX` source code and a pdf of the arXiv manuscript can be found in the [paper](/paper) folder. 
 
@@ -24,22 +25,26 @@ If you use this code in your research, please cite our paper
 
 **"Reduced Wannier Representation for Topological Bands"**  
 *Trey Cole, David Vanderbilt*  
-arXiv:2412.17084, (2024)  
-[DOI: 10.48550/arXiv.2412.17084](https://doi.org/10.48550/arXiv.2412.17084)
+Phys. Rev. B 111, 205139, (2025)  
+[DOI: 10.1103/PhysRevB.111.205139](https://doi.org/10.1103/PhysRevB.111.205139)
 
-You can also [download the citation file here](./CITATION.cff) or get the `bibtex` from 'Cite this repository' under 'About'.
-
-The `bibtex` for citing our paper can also be copied here
+The `bibtex` for citing our paper can be copied here
 ```
-@misc{cole2025reducedwannierrepresentationtopological,
-      title={Reduced Wannier Representation for Topological Bands}, 
-      author={Trey Cole and David Vanderbilt},
-      year={2025},
-      eprint={2412.17084},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mes-hall},
-      url={https://arxiv.org/abs/2412.17084}, 
+@article{PhysRevB.111.205139,
+  title = {Reduced Wannier representation for topological bands},
+  author = {Cole, Trey and Vanderbilt, David},
+  journal = {Phys. Rev. B},
+  volume = {111},
+  issue = {20},
+  pages = {205139},
+  numpages = {13},
+  year = {2025},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.111.205139},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.111.205139}
 }
+
 ```
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
