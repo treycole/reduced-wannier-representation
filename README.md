@@ -1,12 +1,13 @@
-# Reduced Wannier Representation for Topological Bands [(arXiv:2412.17084)](https://arxiv.org/abs/2412.17084)
+# Reduced Wannier Representation for Topological Bands [(Phys. Rev. B 111, 205139)](https://doi.org/10.1103/PhysRevB.111.205139)
 
 Code for the paper "Reduced Wannier Representation for Topological Bands" by Trey Cole and David Vanderbilt. 
 
 ## 📜 Paper
-This paper has been published paper is avail
-The preprint is available on [arXiv:2412.17084](https://arxiv.org/abs/2412.17084).
+This paper has been published in Physical Review B and is available on the [APS website](https://doi.org/10.1103/PhysRevB.111.205139).
 
-The `LaTeX` source code and a pdf of the arXiv manuscript can be found in the [paper](/paper) folder. 
+The arXiv preprint is available at [arXiv:2412.17084](https://arxiv.org/abs/2412.17084).
+
+The `LaTeX` source code and a PDF of the arXiv manuscript can be found in the [paper](/paper) folder. 
 
 ## 💻 Results 
 
@@ -17,7 +18,7 @@ Results are generated using the notebooks and scripts found in the [calculations
 - `pythtb`
 - `wanpy`
 
-The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`, but has not yet been included in a release. The version of `wanpy` used for this paper is linked as a submodule in this repository's root directory, or the most recent version can be found on the `wanpy` repository's [main page](https://github.com/treycole/WanPy). 
+The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`. The version of `wanpy` used for this paper is linked as a submodule in this repository's root directory, or the most recent version can be found on the `wanpy` repository's [main page](https://github.com/treycole/WanPy). 
 
 ## 📚 Citation
 
