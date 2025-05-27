@@ -7,7 +7,7 @@ This paper has been published in Physical Review B and is available on the [APS 
 
 The arXiv preprint is available at [arXiv:2412.17084](https://arxiv.org/abs/2412.17084).
 
-The `LaTeX` source code and a PDF of the arXiv manuscript can be found in the [paper](/paper) folder. 
+The `LaTeX` source code and a PDF of each version of the arXiv manuscript can be found in the [paper](/paper) folder. 
 
 ## 💻 Results 
 
