@@ -6,6 +6,19 @@ authors:
   - family-names: Vanderbilt
     given-names: David
 title: "Reduced Wannier representation for topological bands"
-doi: "10.1103/PhysRevB.111.205139"
-date-released: 2025-05-27
 url: https://github.com/treycole/reduced-wannier-representation
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Cole"
+    given-names: "Trey"
+    orcid: 0000-0002-6810-4186
+    affiliation: Department of Physics & Astronomy, Rutgers University, Piscataway, New Jersey 08854, USA
+  - family-names: "Vanderbilt"
+    given-names: "David"
+    orcid: 0000-0002-2465-9091
+    affiliation: Department of Physics & Astronomy, Rutgers University, Piscataway, New Jersey 08854, USA
+  date-released: 2025-05-27
+  doi: "10.1103/PhysRevB.111.205139"
+  journal: "Phys. Rev. B"
+  title: "Reduced Wannier representation for topological bands"
