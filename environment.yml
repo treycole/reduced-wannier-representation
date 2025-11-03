@@ -1,0 +1,12 @@
+name: pythtb-paper
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy>=2.0
+  - pythtb<2.0
+  - scipy
+  - matplotlib
+  - pip
+  - ipykernel
+  - ipython

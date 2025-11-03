@@ -1,8 +1,14 @@
-from wanpy.wpythtb import *
-from pythtb import *
-from models import Haldane
 import os
+import sys
+
+sys.path.insert(0, os.path.abspath("..")) 
+
 import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+from models import Haldane
+from pythtb import *
+from wanpy import *
 
 # tight-binding parameters
 delta = 1

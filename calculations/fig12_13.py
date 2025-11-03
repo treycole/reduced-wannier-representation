@@ -1,10 +1,12 @@
-from wanpy.wpythtb import *
-from pythtb import *
-from models import Haldane, kane_mele
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath("..")) 
 
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.path as mpath
+from models import kane_mele
+from pythtb import *
+from wanpy import *
 
 
 # tight-binding parameters

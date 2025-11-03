@@ -1,1 +1,1 @@
-Notebook outputs should be cleared before committing using `nbconvert` and typing in the command prompt `jupyter nbconvert --clear-output --inplace filename.ipynb`.
+The data used here can be found at the Zenodo repository: https://doi.org/10.5281/zenodo.15186174. Download the data and place it in the `calculations/data/` directory to generate the figures in this folder.

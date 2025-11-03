@@ -1,0 +1,6 @@
+numpy>=2.0
+pythtb==1.8.0
+scipy
+matplotlib
+ipykernel
+ipython
