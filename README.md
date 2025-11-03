@@ -11,14 +11,17 @@ The `LaTeX` source code and a PDF of each version of the arXiv manuscript can be
 
 ## 💻 Results 
 
-The dataset for the figures used in the paper is hosted on Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15186174.svg)](https://doi.org/10.5281/zenodo.15186174)
+The dataset for the figures used in the paper is hosted on Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15186174.svg)](https://doi.org/10.5281/zenodo.15186174). Download this folder and place in the [calculations](/calculations) to reproduce the results.
 
-Results are generated using the notebooks and scripts found in the [calculations](/calculations) folder. The .py scripts are used for enhanced performance on more lengthy calculations, and the resulting figures are generated with the notebooks of the same name. The following packages are dependencies for running the code:
+Results are generated using the notebooks and scripts located in the [calculations](/calculations) folder. The Python scripts are used for improved performance on longer calculations, while the corresponding Jupyter notebooks produce the final figures. 
 
-- `pythtb`
-- `wanpy`
+The [wanpy](/wanpy) provides functionality for computing maximally localized Wannier functions in `pythtb`. 
 
-The `wanpy` package adds functionality for computing maximally localized Wannier functions in `pythtb`. The version of `wanpy` used for this paper is linked as a submodule in this repository's root directory, or the most recent version can be found on the `wanpy` repository's [main page](https://github.com/treycole/WanPy). 
+All required Python dependencies are listed in [requirements.txt](requierements.txt). Install them with
+
+```bash
+pip install -r requirements.txt
+```
 
 ## 📚 Citation
 
