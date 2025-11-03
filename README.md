@@ -1,6 +1,6 @@
-# Reduced Wannier Representation for Topological Bands [(Phys. Rev. B 111, 205139)](https://doi.org/10.1103/PhysRevB.111.205139)
+# Reduced Wannier representation for topological bands [(Phys. Rev. B 111, 205139)](https://doi.org/10.1103/PhysRevB.111.205139)
 
-Code for the paper "Reduced Wannier Representation for Topological Bands" by Trey Cole and David Vanderbilt. 
+Code for the paper "Reduced Wannier representation for topological bands" by Trey Cole and David Vanderbilt. 
 
 ## 📜 Paper
 This paper has been published in Physical Review B and is available on the APS website [![Journal](https://img.shields.io/badge/PhysRevB-10.1103/PhysRevB.111.205139-blue)](https://doi.org/10.1103/PhysRevB.111.205139).
